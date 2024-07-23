@@ -119,7 +119,7 @@ let swiperTestimonial = new Swiper('.testimonial__swiper', {
   },
 })
 
-/*======= ADD TO CART =========*/
+/*================ ADD TO CART =================*/
 if (document.readyState == 'loading') {
   document.addEventListener('DOMContentLoaded', ready)
 } else {
