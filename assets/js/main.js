@@ -40,6 +40,28 @@ if(loginClose){
   })
 }
 
+/*====== ADD TO CART =========*/
+const cartButton = document.getElementById('cart-button'),
+      cartClose = document.getElementById('cart-close'),
+      cartContent = document.getElementById('cart-content')
+
+/*===== CART SHOW =====*/
+/* Validate if constant exists */
+if(searchButton){
+  searchButton.addEventListener('click', () =>{
+    cartContent.classList.add('show-search')
+  })
+}
+  
+/*===== CART HIDDEN =====*/
+/* Validate if constant exists */
+if(cartClose){
+  cartClose.addEventListener('click', () =>{
+    cartContent.classList.remove('show-cart')
+  })
+}
+
+
 /*=============== ADD SHADOW HEADER ===============*/
 const shadowHeader = () =>{
   const header = document.getElementById('header')
