@@ -49,7 +49,7 @@ const cartButton = document.getElementById('cart-button'),
 /* Validate if constant exists */
 if(searchButton){
   searchButton.addEventListener('click', () =>{
-    cartContent.classList.add('show-search')
+    cartContent.classList.add('show-cart')
   })
 }
   
